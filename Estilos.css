@@ -1,28 +1,37 @@
-body {
+body{
     margin: 0;
     font-family: sans-serif;
     background-color: black;
 }
 
-.header {
-    /* border: solid 3px green; */
-    color: #32b9cd;
+.header{
+    color: #32b9cd; 
     border-bottom: solid 3px #32b9cd;
+    /* border: solid 3px green; */
 }
 
-.container {
+.container{
     /* border: solid 3px yellow; */
     width: 80%;
     margin: auto;
 }
 
 
-.header .container {
+.header .container{
     display: flex;
     justify-content: space-between;
 }
 
-.navbar {
+.header ul .aqui {
+    font-weight: 1000;
+    color: #32b9cd;
+}
+
+a {
+    color: #e3b062;
+    text-decoration: none;
+}
+.navbar{
     display: flex;
     width: 600px;
     justify-content: space-around;
@@ -31,77 +40,71 @@ body {
     align-items: center;
 }
 
-/* Banner */
+/* banner */
 
 .banner {
-    /* border: solid 3px pink; */
-    color: white;
-    padding: 40px 0;
-    height: 400px;
-    background-image: url('assets/imgs/bg-jelly-fish-para_outras_pags.png');
-    background-size: cover;
+  color: white;
+  padding: 40px 0;
+  height: 400px;
+  background-image: url("assets/imgs/bg-jelly-fish-para_outras_pags.png");
+  background-size: cover;
 }
 
-.banner .container {
-    /* border: 2px solid red; */
+.banner .container{
     height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.banner p {
-    /* border: solid 3px green; */
+.banner p{
     font-size: 36px;
     width: 280px;
-
 }
 
-.banner .container span {
-    font-weight: 800;
+.banner .container span{
+    font-weight: 800;   
 }
 
-.social {
-    /* border: solid 3px green; */
+/* missao visao valores*/
+
+.social{
+
     background-color: #e5e5e5;
 }
 
-.social .container {
-    /* border: solid 3px purple; */
-}
-
-.box img {
+.box img{
     width: 170px;
 }
+/* 
+.social .container{
+    border: solid 3px purple;
+} */
 
-.social .container .boxes {
-    /* border: solid 3px #32b9cd; */
+.social .container .boxes{
     display: flex;
-    justify-content: space-around;
 }
 
-.box {
-    /* border: solid 3px #32b9cd; */
-    margin: 50px 10px 10px 10px;
+.box{
+    margin:50px 10px 10px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.social p {
+.social p{
     text-align: center;
 }
 
-/* Footer */
+/* FOOTER */
 
-.footer {
-    /* background-color: #32b9cd; */
+.footer{
+    background-color: #32b9cd;
     height: 150px;
     color: #fff;
     display: flex;
 }
-
-.footer .container h4 {
+.footer .container{
     display: flex;
     justify-content: center;
 }
